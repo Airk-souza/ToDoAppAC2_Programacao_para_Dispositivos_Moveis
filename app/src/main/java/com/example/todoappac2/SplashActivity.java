@@ -14,8 +14,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
